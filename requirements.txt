@@ -6,3 +6,4 @@ typing-extensions==4.7.1
 tzdata==2023.3
 dj_database_url
 psycopg2
+gunicorn
