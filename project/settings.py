@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-DEBUG = os.environ.get("IS_DEBUG",false)
+DEBUG = os.environ.get("IS_DEBUG",False)
 
 if not DEBUG:
     DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
